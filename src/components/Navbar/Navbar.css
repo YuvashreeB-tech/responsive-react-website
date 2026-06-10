@@ -1,0 +1,113 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 30px 80px;
+}
+
+.logo {
+  font-family: "Gerbil", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.nav-links {
+  display: flex;
+  gap: 50px;
+
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  font-family: "Gerbil", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+
+  cursor: pointer;
+}
+
+.menu-icon {
+  font-family: "Gerbil", sans-serif;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.nav-links li {
+  font-family: "Satoshi", sans-serif;
+}
+
+
+
+@media (max-width: 1200px) {
+
+  .navbar {
+    padding: 25px 50px;
+  }
+
+  .nav-links {
+    gap: 35px;
+  }
+
+  .logo {
+    font-size: 24px;
+  }
+}
+
+
+@media (max-width: 992px) {
+
+  .navbar {
+    padding: 20px 40px;
+  }
+
+  .nav-links {
+    gap: 25px;
+  }
+
+  .nav-links li {
+    font-size: 15px;
+  }
+
+  .logo {
+    font-size: 24px;
+  }
+
+    .hero-purple-shape {
+    width: 50px;
+    height: 100px;
+
+    right: 40px;
+    top: 180px;
+  }
+
+  .hero-scribble {
+    left: 120px;
+    top: 170px;
+  }
+}
+
+
+@media (max-width: 768px) {
+
+  .navbar {
+    padding: 20px;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .logo {
+    font-size: 24px;
+  }
+
+  .menu-icon {
+    font-size: 28px;
+  }
+
+  
+}

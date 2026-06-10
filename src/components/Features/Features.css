@@ -1,0 +1,448 @@
+.features {
+  max-width: 1400px;
+  margin: 120px auto;
+  padding: 0 20px;
+
+  position: relative;
+}
+
+.frame1 {
+  display: flex;
+  align-items: center;
+
+
+  gap: 105px;
+}
+
+.body-a {
+  width: 65%;
+  position: relative;
+}
+
+.frame1-scribble {
+  position: absolute;
+
+  top: 105px;
+  left: 50px;
+
+  width: 450px;
+  height: 40px;
+
+  z-index: 5;
+}
+
+.frame1-scribble span {
+  position: absolute;
+
+  height: 4px;
+  background: #f9cc72;
+
+  border-radius: 10px;
+}
+
+.frame1-scribble-1 {
+  width: 293px;
+  top: 1px;
+  left: 13px;
+
+  transform: rotate(0deg);
+}
+
+
+.frame1-scribble-2 {
+  width: 350px;
+  top: 6px;
+  left: -44px;
+
+  transform: rotate(-2deg);
+}
+
+
+.frame1-scribble-3 {
+  width: 390px;
+  top: 15px;
+  left: -43px;
+
+  transform: rotate(1deg);
+}
+
+
+.frame1-scribble-4 {
+  width: 200px;
+  top: 22px;
+  left: 146px;
+
+  transform: rotate(-2deg);
+}
+
+.body-a h2 {
+  font-family: "Gerbil", sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 1.1;
+
+  margin-bottom: 25px;
+}
+
+.body-a p {
+  font-family: "Satoshi", sans-serif;
+
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 36px;
+
+  color: #333;
+
+  margin-bottom: 25px;
+}
+
+.body-a a {
+  font-family: "Satoshi", sans-serif;
+
+  text-decoration: none;
+  color: black;
+
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.body-a a::after {
+  content: " ────────────⮞";
+}
+
+.image-a {
+  width: 20%;
+  position: relative;
+  left: -60px;
+}
+
+.pink-box {
+  position: absolute;
+
+  width: 120px;
+  height: 120px;
+
+  background: #ff6b6b;
+
+  top: 30px;
+  right: -160px;
+
+  transform: rotate(15deg);
+
+  z-index: 1;
+}
+
+.Frame1-image {
+  width: 150%;
+  border-radius: 50%;
+  position: relative;
+  z-index: 2;
+}
+
+
+
+.frame2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 120px;
+  margin-top: 150px;
+}
+
+.image-b {
+  position: relative;
+  left: -30px;
+}
+
+.Frame2-image {
+  width: 380px;
+  height: 380px;
+
+  border-radius: 50%;
+  object-fit: cover;
+
+  position: relative;
+  z-index: 2;
+}
+
+.triangle-top {
+  position: absolute;
+
+  width: 0;
+  height: 0;
+
+  border-left: 80px solid transparent;
+  border-right: 80px solid transparent;
+  border-bottom: 140px solid #ff6b6b;
+
+  left: -15px;
+  top: -10px;
+
+  z-index: 1;
+}
+
+.triangle-bottom {
+  position: absolute;
+
+  width: 0;
+  height: 0;
+
+  border-left: 70px solid transparent;
+  border-right: 70px solid transparent;
+  border-bottom: 120px solid #ff6b6b;
+
+  right: 0;
+  bottom: 0;
+
+  z-index: 3;
+}
+
+.body-b {
+  max-width: 100%;
+  margin-left: 80px;
+}
+
+
+.body-b h2 {
+  font-family: "Gerbil", sans-serif;
+
+  font-size: 55px;
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+.underline {
+  background-color: #dcefdc;
+  padding: 0 10px 4px 10px;
+  border-radius: 30px;
+}
+
+.body-b p {
+  font-family: "Satoshi", sans-serif;
+
+  margin-top: 25px;
+
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+
+  color: #333;
+}
+
+.body-b a {
+  font-family: "Satoshi", sans-serif;
+
+  display: inline-block;
+  margin-top: 20px;
+
+  text-decoration: none;
+  color: black;
+
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.body-b a::after {
+  content: " ────────────⮞";
+}
+
+
+
+.frame1 {
+  display: flex;
+  align-items: center;
+  gap: 150px;
+
+  position: relative;
+}
+
+.pink-glow {
+  position: absolute;
+
+  width: 500px;
+  height: 500px;
+
+  border-radius: 50%;
+
+  background: radial-gradient(circle,
+      rgba(255, 107, 107, 0.30) 0%,
+      rgba(255, 107, 107, 0.15) 40%,
+      rgba(255, 107, 107, 0) 80%);
+
+  left: 530px;
+  top: -290px;
+  width: 600px;
+  height: 600px;
+
+  z-index: 0;
+}
+
+.body-a,
+.image-a {
+  position: relative;
+  z-index: 2;
+}
+
+.red-curve-1 {
+  position: absolute;
+
+  width: 1250px;
+
+  left: 250px;
+  top: 250px;
+
+  transform: rotate(10deg);
+
+  z-index: 0;
+}
+
+.red-curve-2 {
+  position: absolute;
+
+  width: 900px;
+
+  left: 700px;
+  top: 760px;
+
+  transform: rotate(4deg);
+
+  z-index: 0;
+}
+
+
+@media (max-width: 1200px) {
+  .frame1-scribble,
+  .pink-box,
+  .red-curve-1,
+  .red-curve-2,
+  .triangle-top,
+  .pink-glow {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+
+  .pink-box,
+  .red-curve-1,
+  .red-curve-2,
+  .frame1-scribble,
+  .triangle-top,
+  .pink-glow {
+    display: none;
+  }
+
+  .features {
+    padding: 0 30px;
+  }
+
+  .frame1,
+  .frame2 {
+    gap: 50px;
+  }
+
+  .body-a h2,
+  .body-b h2 {
+    font-size: 45px;
+  }
+
+  .body-a p,
+  .body-b p {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .image-a {
+    left: -80px;
+  }
+
+  .Frame1-image {
+    width: 130%;
+  }
+
+  .Frame2-image {
+    width: 300px;
+    height: 300px;
+  }
+
+  .pink-box {
+    width: 90px;
+    height: 90px;
+    right: -100px;
+  }
+
+  .red-curve-1 {
+    width: 900px;
+    left: 150px;
+    top: 350px;
+  }
+
+  .red-curve-2 {
+    width: 650px;
+    left: 450px;
+    top: 850px;
+  }
+
+  .frame1-scribble {
+    transform: scale(0.8);
+    transform-origin: left top;
+  }
+
+  .triangle-top {
+    transform: scale(0.8);
+  }
+
+  .triangle-bottom {
+    transform: scale(0.8);
+  }
+}
+
+
+@media (max-width: 768px) {
+
+  .red-curve-1,
+  .red-curve-2,
+  .frame1-scribble,
+  .pink-box,
+  .pink-glow {
+    display: none;
+  }
+
+  .frame1,
+  .frame2 {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .image-a {
+    left: 0;
+    width: 100%;
+  }
+
+  .body-a,
+  .body-b {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .Frame1-image {
+    width: 280px;
+  }
+
+  .Frame2-image {
+    width: 260px;
+    height: 260px;
+  }
+
+  .body-a h2,
+  .body-b h2 {
+    font-size: 38px;
+  }
+
+  .body-a p,
+  .body-b p {
+    font-size: 16px;
+    line-height: 28px;
+  }
+}

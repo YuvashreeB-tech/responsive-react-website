@@ -1,0 +1,190 @@
+.offer {
+  padding: 100px 80px;
+}
+
+.offer-header h2 {
+  font-family: "Gerbil", sans-serif;
+
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 1.05;
+
+  margin-bottom: 60px;
+}
+
+.Offer-green-highlight {
+  background: #dcefdc;
+  border-radius: 60px;
+  padding: 0 10px 4px 10px;
+}
+
+.offer-list {
+  border-top: 1px solid #d9d9d9;
+}
+
+.offer-item {
+  display: grid;
+  grid-template-columns: 250px 1fr 50px;
+
+  align-items: center;
+
+  padding: 30px 0;
+
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.offer-small {
+  font-family: "Satoshi", sans-serif;
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+
+  color: #555;
+}
+
+.offer-item h3 {
+  font-family: "Gerbil", sans-serif;
+
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+.offer-item span {
+  font-family: "Gerbil", sans-serif;
+
+  font-size: 32px;
+  text-align: right;
+}
+
+
+.offer {
+  padding: 100px 80px;
+  position: relative;
+}
+
+.Offer-scribble {
+  position: absolute;
+
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100px;
+
+  z-index: 4;
+}
+
+.Offer-scribble span {
+  position: absolute;
+
+  height: 4px;
+  background: #f9cc72;
+
+  border-radius: 10px;
+}
+
+.offer-scribble-1 {
+  width: 180px;
+  top: 140px;
+  left: 50px;
+
+  transform: rotate(0deg);
+}
+
+
+.offer-scribble-2 {
+  width: 250px;
+  top: 145px;
+  left: -20px;
+
+  transform: rotate(-2deg);
+}
+
+
+.offer-scribble-3 {
+  width: 270px;
+  top: 152px;
+  left: -20px;
+
+  transform: rotate(1deg);
+}
+
+
+.offer-scribble-4 {
+  width: 125px;
+  top: 161px;
+  left: 125px;
+
+  transform: rotate(-6deg);
+}
+
+.offer-header {
+  position: relative;
+}
+
+@media (max-width: 992px) {
+
+  .offer {
+    padding: 80px 40px;
+  }
+
+  .offer-header h2 {
+    font-size: 55px;
+  }
+
+  .offer-item {
+    grid-template-columns: 180px 1fr 40px;
+    gap: 20px;
+  }
+
+  .offer-item h3 {
+    font-size: 32px;
+  }
+
+  .offer-small {
+    font-size: 14px;
+  }
+
+  .Offer-scribble {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .offer {
+    padding: 60px 20px;
+  }
+
+  .offer-header h2 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .offer-item {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 15px;
+    padding: 25px 0;
+  }
+
+  .offer-item h3 {
+    font-size: 28px;
+  }
+
+  .offer-small {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .offer-item span {
+    text-align: center;
+    font-size: 26px;
+  }
+
+  .Offer-scribble {
+    display: none;
+  }
+}
